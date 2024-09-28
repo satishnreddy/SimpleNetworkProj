@@ -20,6 +20,8 @@ public class clientSide {
 			socket = new Socket(address, port);
 
 			System.out.println("client Connected 1 " + socket.getLocalAddress() + " " + socket.getLocalPort());
+			System.out.println("choose an option to disconnect " + socket.getLocalAddress() + " " + socket.getLocalPort());
+
 
 			// takes input from terminal
 			input = new DataInputStream(System.in);
